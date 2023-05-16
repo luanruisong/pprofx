@@ -7,14 +7,14 @@
 ### go get
 
 ```shell
-go get -u gitlab.bituniverse.org/utilities/go-common
+go get -u github.com/luanruisong/pprofx
 ```
 
 ### import
 
 ```go
 import (
-    _ "gitlab.bituniverse.org/utilities/go-common/pprofx"
+    _ "github.com/luanruisong/pprofx"
 )
 ```
 
