@@ -86,6 +86,6 @@ kill -SIGUSR2 {PID}
 关于自动录制，可以在代码中通过函数来设置需要录制的时间
 
 ```go
-    pprofx.AutoDuration(time.Second * 5)
+pprofx.AutoDuration(time.Second * 5)
 ```
 
