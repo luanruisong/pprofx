@@ -37,8 +37,8 @@ kill -SIGUSR1 {PID}
 出现日志
 
 ```shell
-2023-05-16 17:17:56 [pprofx] profile file created {run_path}/pprof_auto_5s_20230516171756.profile
-2023-05-16 17:17:56 [pprofx] heap file created {run_path}/pprof_auto_5s_20230516171756.heap
+2023-05-16 17:17:56 [pprofx] profile file created {run_path}/pprof_manual_20230516171756.profile
+2023-05-16 17:17:56 [pprofx] heap file created {run_path}/pprof_manual_20230516171756.heap
 2023-05-16 17:17:56 [pprofx] start recording
 ```
 再次执行
@@ -69,8 +69,8 @@ kill -SIGUSR2 {PID}
 
 ```shell
 2023-05-16 17:17:56 [pprofx] recording -> 10m0s
-2023-05-16 17:17:56 [pprofx] profile file created {run_path}/pprof_auto_5s_20230516171756.profile
-2023-05-16 17:17:56 [pprofx] heap file created {run_path}/pprof_auto_5s_20230516171756.heap
+2023-05-16 17:17:56 [pprofx] profile file created {run_path}/pprof_auto_10m0s_20230516171756.profile
+2023-05-16 17:17:56 [pprofx] heap file created {run_path}/pprof_auto_10m0s_20230516171756.heap
 2023-05-16 17:17:56 [pprofx] start recording
 
 ---> wait for 10m0s <---
