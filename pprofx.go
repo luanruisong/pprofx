@@ -191,8 +191,7 @@ func wait() {
 	// kill -2 is syscall.SIGINT
 	// kill -9 is syscall. SIGKILL but can"t be catch, so don't need add it
 	signal.Notify(sigs, syscall.SIGUSR1, syscall.SIGUSR2)
-	for {
-		sig := <-sigs
+	for sig := range sigs {
 		switch sig {
 		case syscall.SIGUSR1:
 			if err := Manual(); err != nil {
